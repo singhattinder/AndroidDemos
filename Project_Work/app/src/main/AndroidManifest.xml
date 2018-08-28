@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.developtech.ShareApp">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="Sign Up"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name="com.developtech.ShareApp.Splash"
+            android:theme="@style/Theme.AppCompat.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name="com.developtech.ShareApp.SendActivity" />
+        <activity
+            android:name=".About.About"
+            android:label="About" />
+        <activity
+            android:name=".Feedback.Feedback"
+            android:label="Feedback" />
+        <activity
+            android:name=".ForgotPassword.ForgotPassword"
+            android:label="Forgot Password" />
+        <activity
+            android:name=".SignIn.SignIn"
+            android:label="Sign In" />
+        <activity
+            android:name=".ManageProfile.ManageProfile"
+            android:label="Manage Profile" />
+        <activity
+            android:name=".MediaSender.MediaSender"
+            android:label="@string/title_activity_media_sender"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".SignUp.SignUp"
+            android:label="Sign Up" />
+        <activity
+            android:name="com.developtech.ShareApp.Home"
+            android:label="Home" />
+        <activity android:name=".Icon.Icon"></activity>
+    </application>
+
+</manifest>

@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        >
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="180dp"
+        android:background="@mipmap/bgm"
+        android:orientation="vertical"
+        >
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@mipmap/avatar"
+            android:layout_gravity="center"
+            android:layout_marginTop="40dp"/>
+        <Button
+            android:layout_width="120dp"
+            android:layout_height="30dp"
+            android:background="@drawable/button"
+            style="?android:attr/borderlessButtonStyle"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:text="Upload"
+            android:textColor="@android:color/white"
+            android:textAllCaps="false"
+            />
+
+    </LinearLayout>
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:layout_marginLeft="20dp"
+    android:layout_marginRight="20dp">
+        <android.support.design.widget.TextInputLayout
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+           >
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:singleLine="true"
+                android:hint="User Name"
+                android:textColor="@color/colorText"
+                android:drawablePadding="10dp"
+                android:theme="@style/MyEditTextTheme"
+                android:drawableLeft="@mipmap/user_name"
+                android:drawableRight="@mipmap/edit"
+                />
+        </android.support.design.widget.TextInputLayout>
+
+        <android.support.design.widget.TextInputLayout
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            >
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:singleLine="true"
+                android:textColor="@color/colorText"
+                android:hint="Current Password"
+                android:drawablePadding="10dp"
+                android:theme="@style/MyEditTextTheme"
+                android:drawableLeft="@mipmap/password"
+                android:drawableRight="@mipmap/edit"
+                android:inputType="textPassword"
+                />
+        </android.support.design.widget.TextInputLayout>
+
+        <android.support.design.widget.TextInputLayout
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+           >
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:singleLine="true"
+                android:hint="New Password"
+                android:textColor="@color/colorText"
+                android:drawablePadding="10dp"
+                android:theme="@style/MyEditTextTheme"
+                android:drawableLeft="@mipmap/password"
+                android:drawableRight="@mipmap/edit"
+                android:inputType="textVisiblePassword"
+                />
+        </android.support.design.widget.TextInputLayout>
+
+        <android.support.design.widget.TextInputLayout
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            >
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:singleLine="true"
+                android:hint="Email"
+                android:textColor="@color/colorText"
+                android:drawablePadding="10dp"
+                android:theme="@style/MyEditTextTheme"
+                android:drawableLeft="@mipmap/mail"
+                android:drawableRight="@mipmap/edit"
+                android:inputType="textEmailAddress"
+                />
+        </android.support.design.widget.TextInputLayout>
+
+        <android.support.design.widget.TextInputLayout
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            >
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:singleLine="true"
+                android:hint="Phone Number"
+                android:textColor="@color/colorText"
+                android:drawablePadding="15dp"
+                android:theme="@style/MyEditTextTheme"
+                android:drawableLeft="@mipmap/phone_number"
+                android:drawableRight="@mipmap/edit"
+                android:inputType="phone"
+
+                />
+        </android.support.design.widget.TextInputLayout>
+
+
+</LinearLayout>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@color/colorPrimary"
+        style="?android:attr/borderlessButtonStyle"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:text="Save"
+        android:textColor="@android:color/white"
+        android:textAllCaps="false"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="30dp"/>
+    </LinearLayout>
+</ScrollView>

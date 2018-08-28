@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.developtech.ShareApp.Home">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginTop="40dp"
+        android:orientation="horizontal">
+
+    <Button
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="About"
+        android:id="@+id/btnabout"
+        android:textAllCaps="false"
+        android:textColor="@android:color/white"
+        android:background="@drawable/button"/>
+        <Button
+            android:layout_width="0dp"
+            android:layout_marginLeft="10dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="FeedBack"
+            android:id="@+id/btnfeedback"
+            android:textAllCaps="false"
+            android:textColor="@android:color/white"
+            android:background="@drawable/button"/>
+        <Button
+            android:layout_width="0dp"
+            android:layout_marginLeft="10dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Icon"
+            android:id="@+id/btnicon"
+            android:textAllCaps="false"
+            android:textColor="@android:color/white"
+            android:background="@drawable/button"/>
+
+        <Button
+            android:layout_width="0dp"
+            android:layout_marginLeft="10dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="forgotpassword"
+            android:id="@+id/btnfp"
+            android:textAllCaps="false"
+            android:textColor="@android:color/white"
+            android:background="@drawable/button"/>
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginTop="40dp"
+        android:orientation="horizontal">
+
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:id="@+id/btnmp"
+            android:text="ManageProfiles"
+            android:textAllCaps="false"
+            android:textColor="@android:color/white"
+            android:background="@drawable/button"/>
+        <Button
+            android:layout_width="0dp"
+            android:layout_marginLeft="10dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Sign In"
+            android:id="@+id/btnsignin"
+            android:textAllCaps="false"
+            android:textColor="@android:color/white"
+            android:background="@drawable/button"/>
+        <Button
+            android:layout_width="0dp"
+            android:layout_marginLeft="10dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Sign Up"
+            android:id="@+id/btnsignup"
+            android:textAllCaps="false"
+            android:textColor="@android:color/white"
+            android:background="@drawable/button"/>
+
+    </LinearLayout>
+
+
+
+</LinearLayout>

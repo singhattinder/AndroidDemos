@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Project_Work</string>
+    <string name="forgot_password">Enter your phone number to get OTP. We will send</string>
+    <string name="forgot_password1">you OTP shortly on your phone number.</string>
+    <string name="title_activity_pictures_send">pictures_send</string>
+    <string name="action_settings">Settings</string>
+    <string name="section_format">Hello World from section: %1$d</string>
+    <string name="title_activity_media_sender">Media_sender</string>
+
+    <string name="title_activity_splash">Splash</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+
+</resources>

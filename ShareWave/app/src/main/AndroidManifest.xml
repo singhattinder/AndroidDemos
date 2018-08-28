@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.developtech.sharewave.sharewave">
+
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="Share Wave"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".Splash"
+            android:theme="@style/Theme.AppCompat.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".about.About"
+            android:label="About" />
+        <activity
+            android:name=".feedback.Feedback"
+            android:label="Feedback" />
+        <activity
+            android:name=".forgotpassword.ForgotPassword"
+            android:label="Forgot Password" />
+        <activity
+            android:name=".signin.SignIn"
+            android:label="Sign In" />
+        <activity
+            android:name=".manageprofile.ManageProfile"
+            android:label="Manage Profile" />
+        <activity
+            android:name=".signup.SignUp"
+            android:label="Sign Up" />
+        <activity
+            android:name=".icon.Icon"
+            android:label="Icon" />
+        <activity
+            android:name=".faq.Faq"
+            android:label="FAQ" />
+        <activity
+            android:name=".send.Sender"
+            android:label="Pick a File" />
+        <activity
+            android:name=".home.Home"
+            android:label="@string/title_activity_navigation_drawer"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".signin.OTP"></activity>
+    </application>
+
+</manifest>

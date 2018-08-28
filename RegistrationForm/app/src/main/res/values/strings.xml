@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">RegistrationForm</string>
+    <array name="data">
+        <item>gmail.com</item>
+        <item>yahoo.com</item>
+        <item>rediff.com</item>
+        <item>hotmail.com</item>
+        <item>outlook.com</item>
+
+    </array>>
+</resources>

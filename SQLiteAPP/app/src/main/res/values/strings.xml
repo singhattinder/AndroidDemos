@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">SQLiteAPP</string>
+    <string name="title_activity_login">LoginActivity</string>
+    <string name="title_activity_add_employee">AddEmployee</string>
+    <string name="title_activity_view_employee">ViewEmployee</string>
+    <string name="title_activity_login_activity">Login_activity</string>
+    <string name="title_activity_view">ViewActivity</string>
+    <string name="title_activity_add_">Add_Activity</string>
+    <string name="title_activity_add_activity">AddACtivity</string>
+</resources>

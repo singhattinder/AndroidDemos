@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    >
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@mipmap/video"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="10dp"
+        android:id="@+id/imgvrowlayout"/>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="10dp"
+        >
+    <com.developtech.sharewave.sharewave.common.customizefonts.CustomizeTextView_Regular
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="This is Hint"
+        android:textSize="20sp"
+        android:id="@+id/tvnamerowlayout"
+        android:textColor="@color/colorPrimary"
+        android:textColorHint="@color/colorPrimary"/>
+        <com.developtech.sharewave.sharewave.common.customizefonts.CustomizeTextView_Regular
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:textColor="@color/colorText"
+            android:id="@+id/tvsentdatarowlayout"
+            android:hint="Send Data : 6MB"/>
+        <com.developtech.sharewave.sharewave.common.customizefonts.CustomizeTextView_Regular
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:textColor="@color/colorText"
+            android:id="@+id/tvfilesizerowlayout"
+            android:hint="Total Size : 6MB"/>
+    </LinearLayout>
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@mipmap/delete"
+        android:id="@+id/btndelete"
+        android:layout_marginLeft="170dp"
+        android:layout_marginTop="10dp"/>
+
+
+</LinearLayout>
